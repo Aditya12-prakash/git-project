@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100vw;
+    background-color: aqua;
+    border-color: black;
+    border-radius: 3px;
+}
+ul{
+    margin-right: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+input{
+    width: 65vw;
+    border-radius: 25px;
+    height: 32px;
+    margin-top: 8px;
+    margin-left: 13px;
+}
+button{
+    width: 50px;
+    height:30px;
+    margin-right: 5px;
+    margin-top: 8px;
+    border-radius:5px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+.page{
+    width: 20vw;
+    height: 593px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(144, 73, 73);
+    border: 5px;
+    border-color: yellow;
+    align-items: center;
+    
+}
+.image{
+    background-color: blue;
+    height: 170px;
+    width: 13vw;
+    border-radius: 150px;
+    margin: 12px;
+    padding: 8px;
+    margin-left: 8px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.userid{
+ height: 15px;
+ margin-bottom: 5px;
+}
+.bio{
+    height: 15px;
+    margin-bottom: 5px;
+}
+.location{
+    height: 15px;
+    margin-bottom: 5px;
+}
+.link{
+    height: 15px;
+    margin-bottom: 5px;
+}
